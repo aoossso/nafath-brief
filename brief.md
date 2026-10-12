@@ -17,11 +17,17 @@ Android's runtime permission model requires apps to request certain sensitive pe
 
 Resource: Request runtime permissions - https://developer.android.com/training/permissions/requesting
 ## Networking
+DNS over HTTPS (DoH) sends DNS queries and responses over HTTPS, protecting their confidentiality and integrity while they travel between the client and the DNS resolver. This can prevent observers on a local network from easily reading or altering DNS messages. However, DoH does not encrypt all internet traffic, hide the user's IP address from every party, or guarantee anonymity. The protection also depends on trusting the chosen DNS resolver.
 
+Resource: RFC 8484: DNS Queries over HTTPS - https://www.rfc-editor.org/rfc/rfc8484.html
 ## Cybersecurity
+Phishing-resistant authentication prevents an attacker posing as a legitimate login service from reusing authentication information to access an account. NIST identifies cryptographic methods with verifier or channel binding, such as FIDO2 passkeys with user verification and appropriately configured security keys, as phishing-resistant. Passwords, SMS codes, and manually entered one-time passwords are not phishing-resistant, even when used as part of multi-factor authentication. The authority should offer phishing-resistant options to protect citizens' accounts.
 
+Resource: NIST SP 800-63B: Authentication and Authenticator Management - https://pages.nist.gov/800-63-4/sp800-63b/authenticators/
 ## Data
+Oman's Personal Data Protection Law and Executive Regulation establish duties for entities that process personal data, while state administrative units are addressed by a separate government data-protection policy. Relevant safeguards include informing people about processing purposes, protecting stored data, enabling applicable data-subject rights, maintaining processing records, and reporting certain breaches. The authority should confirm which rules apply to its legal status and obtain required permits for sensitive data before processing.
 
+Resource: Personal Data Protection - Ministry of Transport, Communications and Information Technology - https://mtcit.gov.om/sectors/governance/personal
 ## Misconception in My Track
 
 ## Open Question
