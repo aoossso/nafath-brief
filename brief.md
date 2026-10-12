@@ -29,5 +29,8 @@ Oman's Personal Data Protection Law and Executive Regulation establish duties fo
 
 Resource: Personal Data Protection - Ministry of Transport, Communications and Information Technology - https://mtcit.gov.om/sectors/governance/personal
 ## Misconception in My Track
+A common misconception is that enabling DNS over HTTPS (DoH) makes all internet activity private and anonymous. RFC 8484 defines DoH as a method for sending DNS queries and receiving responses over HTTPS; it does not claim to encrypt all subsequent application traffic or hide a user's IP address. DoH protects DNS messages in transit, but websites, service providers, and the selected DNS resolver may still observe information depending on the connection and configuration. Therefore, DoH is one privacy measure, not a complete anonymity solution.
 
+Resource reference: RFC 8484, Section 1 — Introduction.
 ## Open Question
+How should the authority select and monitor a trusted DoH resolver while balancing privacy, availability, logging requirements, and compliance with applicable Omani policies?
